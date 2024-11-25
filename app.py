@@ -12,7 +12,7 @@ st.set_page_config(layout = 'wide')
 
 from streamlit_image_comparison import image_comparison
 
-col_img, col_leg = st.columns((1,1))
-with col_img:
-    image_comparison(f'./data/images/S1A_20241125.png',
-                    f'./data/images/S2B_20241031.png')
+# col_img, col_leg = st.columns((1,1))
+# with col_img:
+image_comparison(f'./data/images/S1A_20241125.png',
+                f'./data/images/S2B_20241031.png')
