@@ -1,0 +1,7 @@
+streamlit-image-comparison
+altair
+numpy
+pandas
+plotly-express
+streamlit
+opencv-python-headless
